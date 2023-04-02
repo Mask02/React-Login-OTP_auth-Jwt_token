@@ -8,6 +8,7 @@ import Profile from "./components/Profile";
 import Password from "./components/Password";
 import Recovery from "./components/Recovery";
 import UserName from "./components/UserName";
+import Register from './components/Register'
 import PageNotFound from "./components/PageNotFound";
 import Reset from "./components/Reset";
 
@@ -20,7 +21,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/register" element={<UserName />} />
+          <Route path="/register" element={<Register />} />
           <Route path="/password" element={<Password />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/recovery" element={<Recovery />} />
